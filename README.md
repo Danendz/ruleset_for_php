@@ -29,7 +29,7 @@ This will display the absolute path to your Composer bin directory. Append /phpc
 1. Create a file `ruleset.xml` in the root of your php project
 2. Copy the code from  `ruleset.xml` which is in the repository to your `ruleset.xml`
 
-### Set up custom rules by slevomat\coding-standard
+#### Set up custom rules by slevomat\coding-standard
 1. Install the coding standard globally through Composer:
 ```sh
 composer global require 'slevomat/coding-standard=*'
