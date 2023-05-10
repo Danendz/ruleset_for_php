@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ruleset name="cscart rulset">
+    <config name="installed_paths" value="/home/dev/.config/composer/vendor/slevomat/coding-standard" />
+    <description>Custom coding standard for my project</description>
+    <rule ref="PSR12" />
+    <rule ref="SlevomatCodingStandard.Operators.DisallowEqualOperators" />
+    <rule ref="Squiz.Strings.DoubleQuoteUsage.NotRequired" />
+    <rule ref="Generic.Arrays.DisallowLongArraySyntax" />
+    <rule ref="SlevomatCodingStandard.ControlStructures.AssignmentInCondition" />
+    <rule ref="SlevomatCodingStandard.Functions.UnusedParameter" />
+    <rule ref="SlevomatCodingStandard.PHP.ShortList" />
+    <rule ref="SlevomatCodingStandard.Variables.UselessVariable" />
+</ruleset>
