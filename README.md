@@ -25,6 +25,10 @@ composer global config bin-dir --absolute
 This will display the absolute path to your Composer bin directory. Append /phpcs to the end of the path to specify the path to the PHPCS executable.
 4. Save your VSCode user settings, and then open a PHP file in VSCode. You should now see linting errors and warnings in the editor based on the PSR-12 coding standard.
 
+#### Install Ruleset:
+1. Create a file `ruleset.xml` in the root of your php project
+2. Copy the code from  `ruleset.xml` which is in the repository to your `ruleset.xml`
+
 ### Set up custom rules by slevomat\coding-standard
 1. Install the coding standard globally through Composer:
 ```sh
@@ -39,7 +43,4 @@ You can find this path by running the following command in your terminal:
 ```sh
 composer global config bin-dir --absolute
 ```
-
-#### Install Ruleset:
-1. Create a file `ruleset.xml` in the root of your php project
-2. Copy the code from  `ruleset.xml` which is in the repository to your `ruleset.xml`
+3. You can find the custom rules here: [List of Custom Rules](https://github.com/slevomat/coding-standard/blob/master/doc/arrays.md "List of Custom Rules")
