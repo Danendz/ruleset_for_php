@@ -33,7 +33,7 @@ This will display the absolute path to your Composer bin directory. Append /phpc
 #### Set up custom rules by slevomat\coding-standard
 1. Install the coding standard globally through Composer:
 ```sh
-composer global require 'slevomat/coding-standard=*'
+composer global require "slevomat/coding-standard=*"
 ```
 2. Change the {path} value to your Composer installation path:
 ```xml
