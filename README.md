@@ -38,7 +38,7 @@ composer global require "slevomat/coding-standard=*"
 2. Change the {path} value to your Composer installation path:
 ```xml
 <ruleset name="cscart rulset">
-    <config name="installed_paths" value="{path}/slevomat/coding-standard" />
+    <config name="installed_paths" value="{path}/vendor/slevomat/coding-standard" />
 ```
 You can find this path by running the following command in your terminal:
 ```sh
